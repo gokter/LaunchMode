@@ -1,11 +1,14 @@
 package com.flyingh.launchmode;
 
+import java.util.Date;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SingleTopActivity extends Activity {
 
@@ -19,6 +22,7 @@ public class SingleTopActivity extends Activity {
 
 	public void startSingleTopActivity(View view) {
 		startActivity(new Intent(getApplicationContext(), SingleTopActivity.class));
+		Toast.makeText(getApplicationContext(), new Date().toString(), Toast.LENGTH_LONG).show();
 	}
 
 	@Override
