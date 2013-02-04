@@ -4,30 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".SingleTaskActivity" >
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startStandard"
-        android:text="@string/start_standard" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="startSingleTopActivity"
-        android:text="@string/start_single_top_activity" />
+        android:text="@string/hello_world" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startSingleTaskActivity"
-        android:text="@string/start_single_task_activity" />
+        android:onClick="startMainActivity"
+        android:text="@string/start_main_activiy" />
 
 </LinearLayout>

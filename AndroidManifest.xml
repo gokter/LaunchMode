@@ -28,6 +28,11 @@
             android:label="@string/title_activity_single_top"
             android:launchMode="singleTop" >
         </activity>
+        <activity
+            android:name="com.flyingh.launchmode.SingleTaskActivity"
+            android:label="@string/title_activity_single_task"
+            android:launchMode="singleTask" >
+        </activity>
     </application>
 
 </manifest>

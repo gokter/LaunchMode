@@ -30,6 +30,11 @@ public class MainActivity extends Activity {
 		Toast.makeText(getApplicationContext(), new Date().toString(), Toast.LENGTH_LONG).show();
 	}
 
+	public void startSingleTaskActivity(View view) {
+		startActivity(new Intent(this, SingleTaskActivity.class));
+		Toast.makeText(getApplicationContext(), new Date().toString(), Toast.LENGTH_LONG).show();
+	}
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
