@@ -10,5 +10,6 @@
     <string name="start_single_task_activity">Start single task activity</string>
     <string name="title_activity_single_task">SingleTaskActivity</string>
     <string name="start_main_activiy">Start main activity</string>
+    <string name="start_single_instance_activity">Start single instance activity</string>
 
 </resources>

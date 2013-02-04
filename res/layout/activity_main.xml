@@ -30,4 +30,11 @@
         android:onClick="startSingleTaskActivity"
         android:text="@string/start_single_task_activity" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startSingleInstanceActivity"
+        android:text="@string/start_single_instance_activity" />
+
 </LinearLayout>
